@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Cadastro</title>
+</head>
+<body>
+    <div>
+      <h1 id="title">Cadastro de DEV</h1>
+      <p id="subtitle">Complete com suas informações</p>
+      <br>
+    </div>
+    <form>
+      <fieldset class="grupo">
+        <div class="campo">
+            <label for="nome"><strong>Nome:</strong></label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div class="campo">
+            <label for="sobremome"><strong>Sobrenome:</strong></label>
+            <input type="text" name="sobremome" id="sobremome" required>
+        </div>
+      </fieldset>
+      <div class="campo">
+        <label for="mail"><strong>Email:</strong></label>
+        <input type="email" name="mail" id="mail" required>
+      </div>
+      <div class="campo">
+        <label for="devweb"><strong>De qual lado da aplicação você desenvolve?</strong></label>
+        <label>
+          <input type="radio" name="devweb" id="devweb" value="forntend" checked>Front-End
+          <input type="radio" name="devweb" id="devweb" value="backend">Back-End
+          <input type="radio" name="devweb" id="devweb" value="fullstack">Full Stack
+        </label>
+      </div>
+      <div class="campo">
+          <label for="senioridade"><strong>Senioridade:</strong></label>
+          <select name="senioridade" id="senioridade">
+            <option selected disabled value="">Selecione</option>
+            <option value="junior">Junior</option>
+            <option value="pleno">Pleno</option>
+            <option value="senior">Sênior</option>
+          </select>
+      </div>
+
+      <fieldset class="grupo">
+          <div id="checkbox">
+            <label for="tech"><strong>Selecione quais linguagens de programação você utiliza:</strong></label><br><br>
+            <input type="checkbox" name="tech1" id="tech1" value="html">
+            <label for="tech1">HTML</label>
+            <input type="checkbox" name="tech2" id="tech2" value="css">
+            <label for="tech1">CSS</label>
+            <input type="checkbox" name="tech3" id="tech3" value="js">
+            <label for="tech1">JavaScript</label>
+            <input type="checkbox" name="tech4" id="tech4" value="csharp">
+            <label for="tech4">C#</label>
+            <input type="checkbox" name="tech5" id="tech5" value="Python">
+            <label for="tech5">Python</label>
+            <input type="checkbox" name="tech6" id="tech6" value="java">
+            <label for="tech6">Java</label>
+            <input type="checkbox" name="tech" id="tech7" value="kotlin">
+            <label for="tech7">Kotlin</label>
+            <input type="checkbox" name="tech" id="tech8" value="dart">
+            <label for="tech8">Dart</label>
+          </div>
+      </fieldset>
+
+      <div class="campo">
+        <br>
+        <label for="experiencia"><strong>Conte um pouco sobre sua experiência em programação:</strong></label>
+        <!-- style: width: 26em -->
+        <textarea name="experiencia" id="experiencia" cols="30" rows="10"></textarea>
+      </div>
+      <button type="submit" class="button">Concluído</button>
+    </form>
+</body>
+</html>
