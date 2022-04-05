@@ -1,6 +1,6 @@
 # Cadastro de DEV
 
-Formulário feito em HTML e CSS inspirado no projeto da Rafaella Ballerini 
+Formulário feito em HTML e CSS inspirado no projeto da Rafaella Ballerini. 
 
 ## Visão geral do projeto:
 ![formulario-html-css](https://user-images.githubusercontent.com/70456452/161429095-bc29da18-9960-43ca-8b37-50987916be30.jpg)
