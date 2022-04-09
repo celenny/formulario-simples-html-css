@@ -16,6 +16,4 @@ Formulário feito em HTML e CSS inspirado no projeto da Rafaella Ballerini.
 
 - [Twitter](twitter.com/ceIenny)
 
-- [GitHub](https://github.com/celenny)
-
 - [LinkedIn](https://www.linkedin.com/in/celenny)
